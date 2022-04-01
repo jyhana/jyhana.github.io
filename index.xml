@@ -73,16 +73,13 @@ HTML：
 &amp;lt;!DOCTYPE HTML PUBLIC &amp;#34;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;#34; &amp;#34;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;#34;&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;文档标题&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; 文档内容...... &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; HTML 5：
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Title of the document&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;The content of the document...... &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; HTML 5新增了强大的绘图功能，canvas，SVG ，还新增了视频标签。
 ▲结构语义区别
-HTML：没有体现结构语义化的标签，如：
-HTML 5：添加了许多具有语义化的标签，如：、、、&amp;hellip;
+HTML：没有体现结构语义化的标签，如：&amp;lt;div id=&amp;ldquo;nav&amp;rdquo;&amp;gt;&amp;lt;/div&amp;gt;
+HTML 5：添加了许多具有语义化的标签，如： &amp;lt;article&amp;gt; 、&amp;lt;aside&amp;gt; 、&amp;lt;audio&amp;gt; 、&amp;lt;bdi&amp;gt; &amp;hellip;
 相对于HTML，HTML5中新增和修改了一些元素。
 ▲绘图区别
 HTML：指可伸缩矢量图形，用于定义网络的基于矢量的图形。
 HTML 5: HTML 5的canvas元素使用脚本（通常使用JavaScript）在网页上绘制图像，可以控制画布每一个像素。
-▲语法的处理
-HTML:无法处理不准确的语法；
-HTML 5能够处理不准确的语法。
-2. &amp;lt;!DOCTYPE&amp;gt; 声明 用处：了解文档的类型，使得浏览器能够正确的显示HTML页面</description>
+▲语法的处理</description>
     </item>
     
     <item>
