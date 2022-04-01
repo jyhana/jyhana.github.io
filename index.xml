@@ -60,6 +60,32 @@ People say strange things, the boy thought. Sometimes it&amp;rsquo;s better to b
     </item>
     
     <item>
+      <title>HTML</title>
+      <link>https://jyhana.cn/html/</link>
+      <pubDate>Sat, 13 Sep 2003 11:15:58 -0400</pubDate>
+      
+      <guid>https://jyhana.cn/html/</guid>
+      <description>HTML 基础知识 HTML是超文本语言，用于使用标记语言设计网页。HTML是超文本和标记语言的组合，超文本定义了网页之间的链接；标记语言用于定义标记内的文本文档，该文档定义网页的结构。此语言用于注释（在计算机注释）文本，以便机器可以理解它并相应地操作文本。大部分标记语言都是可读的。该语言使用标签来定义必须对文本进行哪些操作。它用于在网页上构造和呈现内容。
+HTML 5是第五个版本，HTML 5中删除修改了很多的元素。
+1. HTML 5 和HTML的区别： HTML 5超出了超文本标记语言的范畴，它设计的目的是为了在移动设备上支持多媒体，和HTML相比，深度和广度都做了进一步的提升。
+▲声明文件类型区别：HTML 5书写方便，精简，有利于程序员快速的阅读和开发。
+HTML：
+&amp;lt;!DOCTYPE HTML PUBLIC &amp;#34;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;#34; &amp;#34;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;#34;&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;文档标题&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; 文档内容...... &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; HTML 5：
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Title of the document&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;The content of the document...... &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; HTML 5新增了强大的绘图功能，canvas，SVG ，还新增了视频标签。
+▲结构语义区别
+HTML：没有体现结构语义化的标签，如：
+HTML 5：添加了许多具有语义化的标签，如：、、、&amp;hellip;
+相对于HTML，HTML5中新增和修改了一些元素。
+▲绘图区别
+HTML：指可伸缩矢量图形，用于定义网络的基于矢量的图形。
+HTML 5: HTML 5的canvas元素使用脚本（通常使用JavaScript）在网页上绘制图像，可以控制画布每一个像素。
+▲语法的处理
+HTML:无法处理不准确的语法；
+HTML 5能够处理不准确的语法。
+2. &amp;lt;!DOCTYPE&amp;gt; 声明 用处：了解文档的类型，使得浏览器能够正确的显示HTML页面</description>
+    </item>
+    
+    <item>
       <title>奖励</title>
       <link>https://jyhana.cn/award/</link>
       <pubDate>Sat, 13 Sep 2003 11:15:58 -0400</pubDate>
