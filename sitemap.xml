@@ -3,17 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jyhana.cn/</loc>
+    <lastmod>2021-12-30T11:15:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://jyhana.cn/post/postgraduate/</loc>
+    <lastmod>2021-12-30T11:15:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://jyhana.cn/post/vue/</loc>
+    <lastmod>2021-12-13T11:15:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://jyhana.cn/post/html/</loc>
     <lastmod>2021-10-13T11:15:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://jyhana.cn/post/software/</loc>
+    <lastmod>2021-10-12T11:15:58-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://jyhana.cn/post/chapter1-3/</loc>
-    <lastmod>2021-10-13T11:15:58-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jyhana.cn/software/</loc>
-    <lastmod>2021-04-13T11:15:58-04:00</lastmod>
+    <lastmod>2021-10-10T11:15:58-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -37,16 +52,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://jyhana.cn/html/</loc>
-    <lastmod>2003-09-13T11:15:58-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jyhana.cn/vue/</loc>
-    <lastmod>2003-09-13T11:15:58-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://jyhana.cn/award/</loc>
     <lastmod>2003-09-13T11:15:58-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -65,10 +70,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://jyhana.cn/r%C3%A9sum%C3%A9/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jyhana.cn/postgraduate/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

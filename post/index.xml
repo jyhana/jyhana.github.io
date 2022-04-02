@@ -1,16 +1,115 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>鸡汤推文 on 韩小牛的博客日记</title>
+    <title>我的博文 on 韩小牛的博客日记</title>
     <link>https://jyhana.cn/post/</link>
-    <description>Recent content in 鸡汤推文 on 韩小牛的博客日记</description>
+    <description>Recent content in 我的博文 on 韩小牛的博客日记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://jyhana.cn/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>考研经验贴</title>
+      <link>https://jyhana.cn/post/postgraduate/</link>
+      <pubDate>Thu, 30 Dec 2021 11:15:58 -0400</pubDate>
+      
+      <guid>https://jyhana.cn/post/postgraduate/</guid>
+      <description>每年过年的时候都有很多学弟学妹来问我，学长学长，我想考研，怎么复习啊？具体考哪些科目？要不要报班？测绘科学与技术与土木水利不一样吗？买什么参考书啊？该听那个老师的网课啊？专业课什么时候开始？等等。
+​ 所以我想着写一篇帖子，对这些问题做一个集中答疑，然后对整个考研流程介绍一下。 首先，对考研的几个基本问题回答一下：
+ 1. 测绘科学与技术与土木水利不一样吗？  借着这个问题，刚好谈一下学硕和专硕的区别。就我们学校来讲，学术型硕士学位/专业型硕士学位几乎没区别。主要区别就是：
+1) 考研之前： ▲考试科目不一样（2022——）
+政治+数学1＋英语1+952测绘学概论
+政治+数学2＋英语2+952测绘学概论
+数学一和数学二的难度很难说，直观来讲数二考的知识点细，数一考的知识点多，英语一长难句多且难，英语二相对简单，学硕专业课二选一，与你将来读研方向没有关系，选择自己有专业课基础的一门。
+▲学费一样（2021年之前是这样子的,2022之后专硕15000元，学硕8000）
+2) 读研之后： 1）培养计划不一样；（区别不大）
+2）毕业要求不一样；（学硕需要发表一篇文章）
+3）学科类别不一样；（学术型和工程类）
+4）读研期间奖学金评定等都是分开算的。
+还有一个很重要的区别就是学硕可以在研一研二申请硕博连读（有博导接受就可以）。所以说有读博想法的同学最好考学硕。
+3)考研难度：  不存在专硕比较好考的这个误区哈。每年报考学硕的人比较少，专硕竞争压力比较大，专硕考的英语二相对比较简单。专业课的题目都不是很难，不会超纲！
+只需要一本参考书+一本资料书+一个学长的指导，然后自己好好复习，就没得问题！
+2. 考研备考时间？  当进入大四之后你们会发现事儿咋这么多，实习、课程、招聘等各种事儿把你的复习计划切割的七零八落，考研复习时间不在多，而在于集中、专注。如果你是考外校，最晚三月份你就要开始复习了，考本校的话根据自己的情况，别太晚！最最最重要的就是一旦开始了，就要坚持下来，过好每一天。
+复习科目老师/资料/规划等推荐（根据往年口碑推荐）
+1)数学部分： 基础阶段（网课+讲义+习题）【暑假之前】 高数：汤家凤，张宇，李林，武忠祥
+线代：李永乐、汤家凤、张宇
+概率：王式安、汤家凤、张宇
+就网课，我的整体评价是：
+汤家凤的及其细致，课程极多，像你的初中班主任一样负责（配套《汤家凤数学讲义》）【推荐中值定理、微分方程章节】，总的来讲，汤神的高数性价比挺高的；
+张宇高数评价较高，特点是幽默，配套题目技巧性强，难度较高。线代不推荐！（配套《十八讲/三十六讲》）【推荐极限板块】
+李永乐线性代数强推！！最开始听他的课可能贼困，大概十三讲，一定要坚持！！（配套《线性代数讲义》+《660题》） 李永乐、王式安、武忠祥团队都不错，整体复习踏实。
+强化阶段（网课+刷题）【暑假】 网课同上。
+刷题的话，推荐《汤家凤1800》《张宇1000》《李林880》【一遍又一遍的刷。题不再于刷的多少，而是在于总结、是否把知识点吃透了，一定要记得回头看错题笔记】
+冲刺阶段（真题+模拟+笔记）【开学之后】 不要太早考试做真题，网课+讲义+笔记+题库形成自己的体系之后开始做真题，同时注意及时笔记总结、查漏补缺。模拟题强推《李林6套卷》，难度低，质量中等偏上。
+2) 英语部分：  单词+真题+作文
+单词（网课+自己的坚持）【开始-——结束】 推荐《朱伟恋恋有词》/《王江涛十天》，网课和单词书的选择因人而异，最后能不能一直坚持背单词到考试前才是最重要的。
+真题【第一遍单词结束之后】 做英语真题的目的在于学习出题点，每个选项在文中的对应点，错误原因是什么？做真题一定要对得起真题（质量远远大于数量哈）
+这儿推荐一下唐迟的真题解析网课！！
+作文【视频+作文书】 《王江涛作文预测》/刘晓燕
+作文可以早些开始背诵哈，不要把希望寄托在保命班哈。
+3) 政治部分： 考研备考是讲究性价比的，在最短的时间取得一个不错的分数，就是我们的目标，这句话对于政治来讲再合适不过了。每年的十一月份有无数考研学子把自己的希望寄托在一本黄色的政治预测卷上面——《肖秀荣四套卷》，简称《肖四》，不说了，永远的神！！
+关于政治复习，原则就是，尽可能的晚一些开始。
+推荐《徐涛网课》，可以在饭前饭后不想学习的时候当作是消遣，千万别浪费太多时间哈。
+4) 专业课部分：  对于专业课的复习，其实我觉得最重要的客观因素就是“学长+真题+参考书目”，再加上你的复习，肯定会是不错的成绩，很多外校的同学担忧很多，怕本校的有小道消息，怕自己被歧视，怕自己本科专业基础太弱。其实不需要想那么多了，很多学弟学妹问我报录比。其实报录比没什么参考意义的，一个很直观的数据，每年录取的研究生生源，本校：外校≈1：6。也就是说，如果交大今年录取了100个研究生的话，外校考进来的大概有80+.
+考研分两部分：初试+复试。</description>
+    </item>
+    
+    <item>
+      <title>Vue.js</title>
+      <link>https://jyhana.cn/post/vue/</link>
+      <pubDate>Mon, 13 Dec 2021 11:15:58 -0400</pubDate>
+      
+      <guid>https://jyhana.cn/post/vue/</guid>
+      <description>Vue.js 知识 一、Vue是什么？ Vue.js是一套用于构建用户界面的渐进式框架，Vue的核心库只关注图层，容易上手，还便于和第三方库或既有项目的整合。是一个轻量化、高性能、可组件化的MVVM库，同时拥有非常容易上手的API。
+ 二、Vue的特点和优势 2.特点优势： 轻量级框架、简单易学、双向数据绑定（响应式）、组件化开发、数据和结构的分离，虚拟DOM、运行速度快
+①响应式编程：通过MVVM思想实现数据的双向绑定，让开发者不再操作DOM对象，有更多的时间去思考业务逻辑。
+&amp;lt;body&amp;gt; &amp;lt;div id=&amp;#34;#app&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; v-model=&amp;#34;message&amp;#34;&amp;gt; &amp;lt;p&amp;gt;{{message}}&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;script type=&amp;#34;text/javascript&amp;#34;&amp;gt; var app = new Vue({ el:&amp;#34;&amp;#39;app&amp;#39;, data:{ message:&amp;#39;Hello World!&amp;#39; } }) &amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; ②组件化开发：Vue.js通过组件，把一个单页面应用中的各个模块拆分到一个个单独的组件中，我们只要先在父级应用中写好各种组件标签（占坑），并且在组件标签中写好要传入组件的参数（就像给函数传入参数一样，这个参数叫做组件的属性），然后再分别写好各种组件的实现（填坑），然后整个应用就算做完了。
+优点：提高开发效率、方便重复使用、简化调试步骤、提升整个项目的可维护性、便于协同开发。
+③虚拟DOM：在传统开发中，用JQuery或者原生的JavaScript DOM操作函数对DOM进行频繁操作的时候，浏览器要不停的渲染新的DOM树，导致页面看起来非常卡顿。而Virtual DOM是一种可以预先通过JavaScript进行各种计算，把最终的DOM操作计算出来并优化，由于这个DOM操作属于预处理操作，并没有真实的操作DOM，所以叫做虚拟DOM。最后在计算完毕才真正将DOM操作提交，将DOM操作变化反映到DOM树上。
+视图、数据、结构分离：不需要进行逻辑代码的修改，只需要操作数据就能完成相关操作；。
+④轻量级框架：只关注图层，是一个构建数据的视图集合。
+vue父组件如何向子组件传递数据？
+props
+子组件怎么向父组件传递事件？
+$emit</description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://jyhana.cn/post/html/</link>
+      <pubDate>Wed, 13 Oct 2021 11:15:58 -0400</pubDate>
+      
+      <guid>https://jyhana.cn/post/html/</guid>
+      <description>HTML 基础知识 HTML是超文本语言，用于使用标记语言设计网页。HTML是超文本和标记语言的组合，超文本定义了网页之间的链接；标记语言用于定义标记内的文本文档，该文档定义网页的结构。此语言用于注释（在计算机注释）文本，以便机器可以理解它并相应地操作文本。大部分标记语言都是可读的。该语言使用标签来定义必须对文本进行哪些操作。它用于在网页上构造和呈现内容。
+HTML 5是第五个版本，HTML 5中删除修改了很多的元素。
+1. HTML 5 和HTML的区别： HTML 5超出了超文本标记语言的范畴，它设计的目的是为了在移动设备上支持多媒体，和HTML相比，深度和广度都做了进一步的提升。
+▲声明文件类型区别：HTML 5书写方便，精简，有利于程序员快速的阅读和开发。
+HTML：
+&amp;lt;!DOCTYPE HTML PUBLIC &amp;#34;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;#34; &amp;#34;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;#34;&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;文档标题&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; 文档内容...... &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; HTML 5：
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Title of the document&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;The content of the document...... &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; HTML 5新增了强大的绘图功能，canvas，SVG ，还新增了视频标签。
+▲结构语义区别
+HTML：没有体现结构语义化的标签，如：&amp;lt;div id=&amp;ldquo;nav&amp;rdquo;&amp;gt;&amp;lt;/div&amp;gt;
+HTML 5：添加了许多具有语义化的标签，如： &amp;lt;article&amp;gt; 、&amp;lt;aside&amp;gt; 、&amp;lt;audio&amp;gt; 、&amp;lt;bdi&amp;gt; &amp;hellip;
+相对于HTML，HTML5中新增和修改了一些元素。
+▲绘图区别
+HTML：指可伸缩矢量图形，用于定义网络的基于矢量的图形。
+HTML 5: HTML 5的canvas元素使用脚本（通常使用JavaScript）在网页上绘制图像，可以控制画布每一个像素。
+▲语法的处理</description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://jyhana.cn/post/software/</link>
+      <pubDate>Tue, 12 Oct 2021 11:15:58 -0400</pubDate>
+      
+      <guid>https://jyhana.cn/post/software/</guid>
+      <description>1. 文本编辑器（记事本） 1.1. 印象笔记 下载地址 ：https://www.yinxiang.com/download/ 1.2. Notepad++ ： https://notepad-plus-plus.org/downloads/  Notepad++ 是一款精致小巧的编辑器，自带语法识别功能，可以对代码高亮，插件好用。怎么编译运行软件还没搞懂，但是作为一般的文本打开编辑软件，十分推荐！点击Installer下载npp.7.8.8.Installer.exe可执行文件，双击安装。Notepad++界面如下：2. 浏览器 2.1 Google chorme https://www.google.cn/chrome/  Google Chrome是一款由[Google](https://baike.baidu.com/item/Google/86964)公司开发的[网页浏览器](https://baike.baidu.com/item/%E7%BD%91%E9%A1%B5%E6%B5%8F%E8%A7%88%E5%99%A8/8309940)，使用者界面简洁。有[Windows](https://baike.baidu.com/item/Windows/165458)、[macOS](https://baike.baidu.com/item/macOS/8654551)、[Linux](https://baike.baidu.com/item/Linux/27050)、[Android](https://baike.baidu.com/item/Android/60243)、以及[iOS](https://baike.baidu.com/item/iOS/45705)版本提供下载。&amp;lt;br /&amp;gt;搜索引擎可以设置为Baidu/Bing，当然可以连接VPN访问。&amp;lt;br /&amp;gt;常用浏览器插件：**IDM（Internet Download Manager）、谷歌翻译、谷歌访问助手、SCI-HUB**等。&amp;lt;br /&amp;gt;扩展工具——  2.2 Internet Explore Internet Explorer（简称：IE）是微软公司推出的一款网页浏览器。原称Microsoft Internet Explorer（6版本以前）和Windows Internet Explorer（7、8、9、10、11版本）。2015年3月微软确认将放弃IE品牌。转而在Windows 10上，用Microsoft Edge取代了Internet Explorer。 2.3 Microsoft Edge Microsoft Edge是由Microsoft开发的网页浏览器. 2.4 其他 诸如QQ浏览器、360浏览器、火狐、搜狗、百度等等等等，统统不建议。附： 如何从网页中下载video、audio、music、document等？ 最常见的就是摁“F12”显示网页源码，然后寻找定位到文件所在的语句，将链接复制粘贴到新的标签页，直接下载就可以（配合浏览器下载插件更舒服） 3. 快速搜索 everything ： https://www.voidtools.com/zh-cn/downloads/  下载安装最新版的 Everything-1.4.1.1005.x86-Setup.exe可执行文件。everything可以根据关键词、文件名、文件后缀等快速查询。 4. 远程控制 4.1 向日葵 ： https://sunlogin.oray.com/download/ 我平时就用的是向日葵，在千辛万苦注册 TeamViwer失败之后，我果断选择了向日葵。Windows、MAC、Android、IOS、Linux等系统都可以用，试想一下，你正在外边嗨，你的导师给你发了条消息“XXX，你的实验结果出来了吗？怎么样啊？”，此刻你抓狂的多么想身边拥有一台电脑！于是乎，当你的手机移动端和PC端同时安装并打开了远控软件之后，你就可以马上把需要的东西远程发给老师。PC-PC/Phone-PC可以相互远程控制的前提是：1）电脑端处于唤醒状态（可以不用解锁）；2）向日葵软件均已经打开；3））两边均连网且稳定；4.2 TeamViwer ： https://www.teamviewer.cn/cn/download/ 和向日葵一样。
+5. 代码编辑器IDE 5.</description>
+    </item>
+    
+    <item>
       <title>第三章: 牧羊少年奇幻之旅</title>
       <link>https://jyhana.cn/post/chapter1-3/</link>
-      <pubDate>Wed, 13 Oct 2021 11:15:58 -0400</pubDate>
+      <pubDate>Sun, 10 Oct 2021 11:15:58 -0400</pubDate>
       
       <guid>https://jyhana.cn/post/chapter1-3/</guid>
       <description>When someone sees the same people every day, they wind up becoming a part of that person&amp;rsquo;s life. And then they want the person to change. If someone isn&amp;rsquo;t what others want them to be, the others become angry. Everyone seems to have a clear idea of how people should lead their lives, but none about his or her own.
