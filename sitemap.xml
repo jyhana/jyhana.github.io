@@ -27,6 +27,31 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://jyhana.cn/post/interviewnote/</loc>
+    <lastmod>2021-10-13T11:15:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://jyhana.cn/tags/</loc>
+    <lastmod>2021-10-13T11:15:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://jyhana.cn/tags/vs/</loc>
+    <lastmod>2021-10-13T11:15:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://jyhana.cn/tags/vue%E9%9D%A2%E8%AF%95/</loc>
+    <lastmod>2021-10-13T11:15:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://jyhana.cn/post/vue%E9%9D%A2%E8%AF%95%E9%A2%98%E8%A7%A3%E6%9E%90/</loc>
+    <lastmod>2021-10-13T11:15:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://jyhana.cn/post/software/</loc>
     <lastmod>2021-10-12T11:15:58-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -57,15 +82,20 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://jyhana.cn/vue/</loc>
+    <lastmod>2003-09-13T11:15:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://jyhana.cn/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://jyhana.cn/tags/</loc>
+    <loc>https://jyhana.cn/weblink/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://jyhana.cn/weblink/</loc>
+    <loc>https://jyhana.cn/postgraduate/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title></title>
+    <title>小牛学长的博客日记</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="The last theme you&#39;ll ever need. Maybe.">
     <meta name="generator" content="Hugo 0.89.2" />
@@ -69,6 +69,12 @@
         <ul class="pl0 mr3">
           
           <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/vue/" title="VUE 页">
+              VUE
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
             <a class="hover-white no-underline white-90" href="/weblink/" title="相关网站 页">
               相关网站
             </a>
@@ -77,6 +83,12 @@
           <li class="list f5 f4-ns fw4 dib pr3">
             <a class="hover-white no-underline white-90" href="/post/" title="经验笔记 页">
               经验笔记
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/postgraduate/" title="考研简介 页">
+              考研简介
             </a>
           </li>
           
@@ -143,18 +155,89 @@
 
 
     <main class="pb7" role="main">
-      
-    
-  <article class="cf pa3 pa4-m pa4-l">
+       
+<article class="cf pa3 pa4-m pa4-l">
     <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
-      
+        
     </div>
-  </article>
-  <div class="mw8 center">
+</article>
+<div class="mw8 center">
     <section class="ph4">
-      
+        
+        <h2 class="f1">
+            <a href="/%20/%20tags/vs" class="link blue hover-black">
+            Tag: vs
+          </a>
+        </h2>
+         <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+    <div class="bg-white mb3 pa4 gray overflow-hidden">
+        <span class="f6 db">Post</span>
+        <h1 class="f3 near-black">
+            <a href="/post/interviewnote/" class="link black dim">
+        Interview
+      </a>
+        </h1>
+        <div class="nested-links f5 lh-copy nested-copy-line-height">
+            一、 Vue 面试 1. 对SPA（ single-page application ）单页面的理解 SPA（ single-page application ）仅在Web页面初始化的时候加载相应的HTML、JavaScript、Css，一旦页面加载完成，SAP不会因为用户的操作而进行页面的重新加载或者跳转；取而代之的是利用路由机制实现HTML内容的变换，UI与用户的交互，避免页面的重新加载。
+优点：
+1）用户体验好、快，内容的改变不需要重新加载整个页面，避免不了不必要的跳转和重复渲染；
+2）基于第一点，SPA相对服务器端额压力比较小；
+3）前后端职责分离，架构清晰，前端进行交互逻辑，后端负责数据处理；
+缺点：
+1）初次加载耗时多：为实现单页Web应用功能及其显示效果，需要在加载页面的时候将JavaScript、Css统一加载，部分页面按需加载；
+2）前进后退路由管理：由于单页应用在一个页面中显示所有的内容，所以不能使用浏览器的前进后退功能，所有的页面切换需要自己建立堆栈管理。
+3）SEO 难度较大：由于所有的内容都在一个页面中动态替换显示，所以在SEO上其有着天然的弱势。
+2. v-show和v-if有什么区别 v-if是真正的条件渲染，因为它会确保在切换过程中条件块内的时间监听器和子组件适当的被销毁和重建，也是惰性的。
+如果在初试渲染的时候条件为假，则什么也不做——直到条件第一次变为真时，才会开始渲染条件块。
+v-show就要简单的多——不管初始条件如何，元素总是会被渲染，并且只是简单的基于Css的“display”属性进行切换。
+所以，v-if适用于在运行时很少改变条件，不需要频繁切换条件的场景；v-show则适用于需要非常频繁的切换条件的场景。
+3. Class与Style如何动态绑定？ Class可以通过对象语法和数组语法进行动态绑定：
+  对象语法：
+&lt;div v-bind:class=&#34;{ active: isActive, &#39;text-danger&#39;: hasError }&#34;&gt;&lt;/div&gt;   数组语法：
+&lt;div v-bind:class=&#34;[isActive ? activeClass : &#39;&#39;, errorClass]&#34;&gt;&lt;/div&gt;   Style 也可以通过对象语法和数组语法进行动态绑定：
+  对象语法：
+&lt;div v-bind:style=&#34;{ color: activeColor, fontSize: fontSize + &#39;px&#39; }&#34;&gt;&lt;/div&gt;   数组语法：
+        </div>
+    </div>
+</div>  
+        <h2 class="f1">
+            <a href="/%20/%20tags/vue%E9%9D%A2%E8%AF%95" class="link blue hover-black">
+            Tag: vue面试
+          </a>
+        </h2>
+         <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+    <div class="bg-white mb3 pa4 gray overflow-hidden">
+        <span class="f6 db">Post</span>
+        <h1 class="f3 near-black">
+            <a href="/post/interviewnote/" class="link black dim">
+        Interview
+      </a>
+        </h1>
+        <div class="nested-links f5 lh-copy nested-copy-line-height">
+            一、 Vue 面试 1. 对SPA（ single-page application ）单页面的理解 SPA（ single-page application ）仅在Web页面初始化的时候加载相应的HTML、JavaScript、Css，一旦页面加载完成，SAP不会因为用户的操作而进行页面的重新加载或者跳转；取而代之的是利用路由机制实现HTML内容的变换，UI与用户的交互，避免页面的重新加载。
+优点：
+1）用户体验好、快，内容的改变不需要重新加载整个页面，避免不了不必要的跳转和重复渲染；
+2）基于第一点，SPA相对服务器端额压力比较小；
+3）前后端职责分离，架构清晰，前端进行交互逻辑，后端负责数据处理；
+缺点：
+1）初次加载耗时多：为实现单页Web应用功能及其显示效果，需要在加载页面的时候将JavaScript、Css统一加载，部分页面按需加载；
+2）前进后退路由管理：由于单页应用在一个页面中显示所有的内容，所以不能使用浏览器的前进后退功能，所有的页面切换需要自己建立堆栈管理。
+3）SEO 难度较大：由于所有的内容都在一个页面中动态替换显示，所以在SEO上其有着天然的弱势。
+2. v-show和v-if有什么区别 v-if是真正的条件渲染，因为它会确保在切换过程中条件块内的时间监听器和子组件适当的被销毁和重建，也是惰性的。
+如果在初试渲染的时候条件为假，则什么也不做——直到条件第一次变为真时，才会开始渲染条件块。
+v-show就要简单的多——不管初始条件如何，元素总是会被渲染，并且只是简单的基于Css的“display”属性进行切换。
+所以，v-if适用于在运行时很少改变条件，不需要频繁切换条件的场景；v-show则适用于需要非常频繁的切换条件的场景。
+3. Class与Style如何动态绑定？ Class可以通过对象语法和数组语法进行动态绑定：
+  对象语法：
+&lt;div v-bind:class=&#34;{ active: isActive, &#39;text-danger&#39;: hasError }&#34;&gt;&lt;/div&gt;   数组语法：
+&lt;div v-bind:class=&#34;[isActive ? activeClass : &#39;&#39;, errorClass]&#34;&gt;&lt;/div&gt;   Style 也可以通过对象语法和数组语法进行动态绑定：
+  对象语法：
+&lt;div v-bind:style=&#34;{ color: activeColor, fontSize: fontSize + &#39;px&#39; }&#34;&gt;&lt;/div&gt;   数组语法：
+        </div>
+    </div>
+</div>  
     </section>
-  </div>
+</div>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">

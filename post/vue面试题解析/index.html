@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta name="baidu-site-verification" content="code-dt1T7QhzQQ" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>面试解析 | 小牛学长的博客日记</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Interview">
+    <meta name="generator" content="Hugo 0.89.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+      
+<link rel="shortcut icon" href="/images/YJ-bf.png" type="image/x-icon" />
+
+
+    
+
+    
+    
+    <meta property="og:title" content="面试解析" />
+<meta property="og:description" content="Interview" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jyhana.cn/post/vue%E9%9D%A2%E8%AF%95%E9%A2%98%E8%A7%A3%E6%9E%90/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-10-13T11:15:58-04:00" />
+<meta property="article:modified_time" content="2021-10-13T11:15:58-04:00" /><meta property="og:site_name" content="小牛学长的博客日记" />
+
+<meta itemprop="name" content="面试解析">
+<meta itemprop="description" content="Interview"><meta itemprop="datePublished" content="2021-10-13T11:15:58-04:00" />
+<meta itemprop="dateModified" content="2021-10-13T11:15:58-04:00" />
+<meta itemprop="wordCount" content="429">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="面试解析"/>
+<meta name="twitter:description" content="Interview"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+      
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://jyhana.cn/image/html.jpg');">
+  <meta name="baidu-site-verification" content="code-dt1T7QhzQQ" />
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        小牛学长的博客日记
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/vue/" title="VUE 页">
+              VUE
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/weblink/" title="相关网站 页">
+              相关网站
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/post/" title="经验笔记 页">
+              经验笔记
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/postgraduate/" title="考研简介 页">
+              考研简介
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/dynamic/" title="考试动态 页">
+              考试动态
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/book/" title="领取资料 页">
+              领取资料
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+<a href="https://twitter.com/" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+<a href="https://github.com/" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">面试解析</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Interview
+            </h2>
+          
+        
+      </div>
+    </div>
+  </header>
+
+ 
+    <main class="pb7" role="main">
+       
+<article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <h1 id="wc" style="font-size: 1rem;text-align: right;">本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h1>
+    <div class="post-comment">
+        
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div>
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+   <i class="fa fa-user"></i>  <span id="busuanzi_value_site_pv"></span>|
+   <i class="fa fa-eye"></i> <span id="busuanzi_value_site_uv"></span>人次
+</div>
+    </div>
+    <header class="mt4 w-100">
+        <aside class="instapaper_ignoref b helvetica tracked">
+             经验笔记
+        </aside>
+        
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=https://jyhana.cn/post/vue%E9%9D%A2%E8%AF%95%E9%A2%98%E8%A7%A3%E6%9E%90/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=https://jyhana.cn/post/vue%E9%9D%A2%E8%AF%95%E9%A2%98%E8%A7%A3%E6%9E%90/&amp;text=%e9%9d%a2%e8%af%95%e8%a7%a3%e6%9e%90" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.youtube.com/" class="youtube no-underline" aria-label="share on youtube">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.527,41.34c-0.278,0-0.478,0.078-0.6,0.244  c-0.121,0.156-0.18,0.424-0.18,0.796v0.896h1.543V42.38c0-0.372-0.062-0.64-0.185-0.796C42.989,41.418,42.792,41.34,42.527,41.34z   M36.509,41.309c0.234,0,0.417,0.076,0.544,0.23c0.123,0.155,0.185,0.383,0.185,0.682v4.584c0,0.286-0.053,0.487-0.153,0.611  c-0.1,0.127-0.256,0.189-0.47,0.189c-0.148,0-0.287-0.033-0.421-0.096c-0.135-0.062-0.274-0.171-0.415-0.313v-5.531  c0.119-0.122,0.239-0.213,0.36-0.271C36.26,41.335,36.383,41.309,36.509,41.309z M41.748,44.658v1.672  c0,0.468,0.057,0.792,0.17,0.974c0.118,0.181,0.313,0.269,0.592,0.269c0.289,0,0.491-0.076,0.606-0.229  c0.114-0.153,0.175-0.489,0.175-1.013v-0.405h1.795v0.456c0,0.911-0.217,1.596-0.657,2.059c-0.435,0.459-1.089,0.687-1.958,0.687  c-0.781,0-1.398-0.242-1.847-0.731c-0.448-0.486-0.676-1.157-0.676-2.014v-3.986c0-0.768,0.249-1.398,0.742-1.882  c0.493-0.484,1.128-0.727,1.911-0.727c0.799,0,1.413,0.225,1.843,0.674c0.429,0.448,0.642,1.093,0.642,1.935v2.264H41.748z   M38.623,48.495c-0.271,0.336-0.669,0.501-1.187,0.501c-0.343,0-0.646-0.062-0.912-0.192c-0.267-0.129-0.519-0.327-0.746-0.601  v0.681h-1.764V36.852h1.764v3.875c0.237-0.27,0.485-0.478,0.748-0.616c0.267-0.143,0.534-0.212,0.805-0.212  c0.554,0,0.975,0.189,1.265,0.565c0.294,0.379,0.438,0.933,0.438,1.66v4.926C39.034,47.678,38.897,48.159,38.623,48.495z   M30.958,48.884v-0.976c-0.325,0.361-0.658,0.636-1.009,0.822c-0.349,0.191-0.686,0.282-1.014,0.282  c-0.405,0-0.705-0.129-0.913-0.396c-0.201-0.266-0.305-0.658-0.305-1.189v-7.422h1.744v6.809c0,0.211,0.037,0.362,0.107,0.457  c0.077,0.095,0.196,0.141,0.358,0.141c0.128,0,0.292-0.062,0.488-0.188c0.197-0.125,0.375-0.283,0.542-0.475v-6.744h1.744v8.878  H30.958z M24.916,38.6v10.284h-1.968V38.6h-2.034v-1.748h6.036V38.6H24.916z M32.994,32.978c0-0.001,12.08,0.018,13.514,1.45  c1.439,1.435,1.455,8.514,1.455,8.555c0,0-0.012,7.117-1.455,8.556C45.074,52.969,32.994,53,32.994,53s-12.079-0.031-13.516-1.462  c-1.438-1.435-1.441-8.502-1.441-8.556c0-0.041,0.004-7.12,1.441-8.555C20.916,32.996,32.994,32.977,32.994,32.978z M42.52,29.255  h-1.966v-1.08c-0.358,0.397-0.736,0.703-1.13,0.909c-0.392,0.208-0.771,0.312-1.14,0.312c-0.458,0-0.797-0.146-1.027-0.437  c-0.229-0.291-0.345-0.727-0.345-1.311v-8.172h1.962v7.497c0,0.231,0.045,0.399,0.127,0.502c0.08,0.104,0.216,0.156,0.399,0.156  c0.143,0,0.327-0.069,0.548-0.206c0.22-0.137,0.423-0.312,0.605-0.527v-7.422h1.966V29.255z M31.847,27.588  c0.139,0.147,0.339,0.219,0.6,0.219c0.266,0,0.476-0.075,0.634-0.223c0.157-0.152,0.235-0.358,0.235-0.618v-5.327  c0-0.214-0.08-0.387-0.241-0.519c-0.16-0.131-0.37-0.196-0.628-0.196c-0.241,0-0.435,0.065-0.586,0.196  c-0.148,0.132-0.225,0.305-0.225,0.519v5.327C31.636,27.233,31.708,27.439,31.847,27.588z M30.408,19.903  c0.528-0.449,1.241-0.674,2.132-0.674c0.812,0,1.48,0.237,2.001,0.711c0.517,0.473,0.777,1.083,0.777,1.828v5.051  c0,0.836-0.255,1.491-0.762,1.968c-0.513,0.476-1.212,0.714-2.106,0.714c-0.858,0-1.547-0.246-2.064-0.736  c-0.513-0.492-0.772-1.152-0.772-1.983v-5.068C29.613,20.954,29.877,20.351,30.408,19.903z M24.262,16h-2.229l2.634,8.003v5.252  h2.213v-5.5L29.454,16h-2.25l-1.366,5.298h-0.139L24.262,16z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30  S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.github.com/" class="github no-underline" aria-label="share on github">
+      <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+    </a>
+  </div>
+
+
+        <h1 class="f1 athelas mt3 mb1">面试解析</h1>
+        
+        <p class="tracked">
+            By <strong>
+          
+              jyhana
+          
+          </strong>
+        </p>
+          
+        <time class="f6 mv4 dib tracked" datetime="2021-10-13T11:15:58-04:00" >October 13, 2021</time>   
+        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 429 words </span> 
+    </header>
+    <div class="nested-copy-line-height lh-copy serif  f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><hr>
+<blockquote>
+<ul>
+<li>vue.js的特点？</li>
+<li>vue常用指令</li>
+<li>vue的双向数据绑定原理是什么?</li>
+<li>vue-router有哪几种导航钩子?</li>
+<li>active-class是哪个组件的属性?嵌套路由怎么定义?</li>
+<li>scss是什么?在 vue.cli中的安装使用步骤是?有哪几大特性?</li>
+<li>sass是什么？如何在vue中安装和使用？</li>
+<li>请说下封装 vue组件的过程?</li>
+<li>请详细说下你对vue生命周期的理解?</li>
+<li>watch和computed的区别</li>
+<li>computed 和 methods 的区别</li>
+<li>vue中如何解决页面不重新渲染问题</li>
+<li>v-if和v-for一起使用的弊端以及它的解决办法？</li>
+<li>v-show指令和v-if指令的区别是什么？</li>
+<li>虚拟DOM，diff算法?</li>
+<li>过滤器 (Filter)</li>
+<li>常见的事件修饰符及其作用</li>
+<li>Vue 组件 data 为什么必须是函数 ?</li>
+<li>axios是什么</li>
+<li>在 Vue. js开发环境下调用API接口，如何避免跨域</li>
+<li>组件传值方式有哪些？</li>
+<li>如何让CSS只在当前组件中起作用？</li>
+<li>keep-alive是什么？</li>
+<li>如何在 Vue. js动态插入图片</li>
+<li>父子组件的生命周期顺序</li>
+<li>vuex的核心概念</li>
+<li>vuex是什么？怎么使用？哪种功能场景使用它？</li>
+<li>vue中key值的作用</li>
+</ul>
+</blockquote>
+<h3 id="vue面试题解析"><strong>vue面试题解析</strong></h3>
+<h3 id="vuejs的特点">vue.js的特点？</h3>
+<blockquote>
+<ul>
+<li>易用： 简单，易学，上手快</li>
+<li>灵活： （渐进式）不断繁荣的生态系统，可以在一个库和一套完整框架之间自如伸缩。</li>
+<li>高效： 20kB min+gzip 运行大小；超快虚拟 DOM；最省心的优化</li>
+<li>双向绑定：开发效率高</li>
+<li>基于组件的代码共享</li>
+<li>Web项目工程化，增加可读性、可维护性</li>
+</ul>
+</blockquote>
+<h3 id="vue常用指令">vue常用指令</h3>
+<blockquote>
+<p>v-model 多用于表单元素实现双向数据绑定（同angular中的ng-model）
+v-bind 动态绑定 作用： 及时对页面的数据进行更改
+v-on:click 给标签绑定函数，可以缩写为@，例如绑定一个点击函数 函数必须写在methods里面
+v-for 格式： v-for=&ldquo;字段名 in(of) 数组json&rdquo; 循环数组或json(同angular中的ng-repeat)
+v-show 显示内容 （同angular中的ng-show）
+v-hide 隐藏内容（同angular中的ng-hide）
+v-if 显示与隐藏 （dom元素的删除添加 同angular中的ng-if 默认值为false）
+v-else-if 必须和v-if连用
+v-else 必须和v-if连用 不能单独使用 否则报错 模板编译错误
+v-text 解析文本
+v-html 解析html标签
+v-bind:class 三种绑定方法 1、对象型 &lsquo;{red:isred}&rsquo; 2、三元型 &lsquo;isred?&ldquo;red&rdquo;:&ldquo;blue&rdquo;&rsquo; 3、数组型 &lsquo;[{red:&ldquo;isred&rdquo;},{blue:&ldquo;isblue&rdquo;}]&rsquo;
+v-once 进入页面时 只渲染一次 不在进行渲染
+v-cloak 防止闪烁
+v-pre 把标签内部的元素原位输出</p>
+</blockquote>
+<h3 id="vue的双向数据绑定原理是什么">Vue的双向数据绑定原理是什么?</h3>
+<blockquote>
+<p>是采用数据劫持结合发布者-订阅者模式的方式，通过Object.defineProperty()来劫持各个属性的setter，getter，在数据变动时发布消息给订阅者，触发相应的监听回调。从而实现数据的双向绑定</p>
+</blockquote>
+<h3 id="vue-router有哪几种导航钩子">vue-router有哪几种导航钩子?</h3>
+<blockquote>
+<p><strong>一.全局守卫</strong>
+1.router.beforeEach((to,from,next) =&gt; {})</p>
+<ol>
+<li>回调函数中的参数，to：进入到哪个路由去，from：从哪个路由离开，next：函数，决定是否展示你要看到的路由页面。</li>
+<li>如下例：main.js中设置全局守卫</li>
+</ol>
+<p>在main.js中，有一个路由实例化对象router。在main.js中设置守卫已是全局守卫。
+如下，判断to.path当前将要进入的路径是否为登录或注册，如果是就执行next()，展示当前界面。如果不是，就弹出alert，然后移至登录界面。
+这样就可实现，用户在未登录状态下，展示的一直是登录界面。</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">router<span style="color:#f92672">.</span>beforeEach((to,from,<span style="color:#66d9ef">next</span>) <span style="color:#f92672">=&gt;</span> {
+  <span style="color:#66d9ef">if</span>(to<span style="color:#f92672">.</span>path <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;/login&#39;</span> <span style="color:#f92672">||</span> to<span style="color:#f92672">.</span>path <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;/home&#39;</span> <span style="color:#f92672">||</span> to<span style="color:#f92672">.</span>path <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;/event&#39;</span>){
+    <span style="color:#66d9ef">next</span>();
+  }<span style="color:#66d9ef">else</span> {
+    alert(<span style="color:#e6db74">&#39;您还没有登录&#39;</span>)
+    <span style="color:#66d9ef">next</span>(<span style="color:#e6db74">&#39;/login&#39;</span>)
+  }
+})
+</code></pre></div><p><img src="https:////upload-images.jianshu.io/upload_images/27418354-a1f6db520288e5ce.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/597/format/webp" alt="img"></p>
+<p>image.jpeg</p>
+<blockquote>
+<ol>
+<li>全局后置钩子router.afterEach((to,from)=&gt;{})
+只有两个参数，to：进入到哪个路由去，from：从哪个路由离。
+如下，每次切换路由时，都会弹出alert，点击确定后，展示当前页面。</li>
+</ol>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-jsx" data-lang="jsx"><span style="color:#a6e22e">router</span>.<span style="color:#a6e22e">afterEach</span>((<span style="color:#a6e22e">to</span>,<span style="color:#a6e22e">from</span>)=&gt;{
+  <span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#34;每次跳转页面都会弹出&#34;</span>);
+})
+</code></pre></div><p><img src="https:////upload-images.jianshu.io/upload_images/27418354-d017b0ba2607edb9.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/265/format/webp" alt="img"></p>
+<p>image.jpeg</p>
+<blockquote>
+<p><strong>二.组件内的守卫</strong></p>
+<ol>
+<li>到达这个组件时，beforeRouteEnter:(to,from,next)=&gt;{}
+在Admin.vue文件中，点击转到admin路由时，执行beforeRouteEnter函数
+to，from参数与上面使用方法一致。next回调函数略有不同。
+如下例，data 组件内守卫有特殊情况，如果我们直接以
+beforeRouteEnter:(to,from,next)=&gt;{ alert(&ldquo;hello&rdquo; + this.name);}进行访问admin页面，会发现alert输出hello undefined。这是因为，现在访问不到我们的data属性，执行顺序是不一致，这与的声明周期有关。在执行完之前，data数据还未渲染。所以这里，next()会给一个对应的回调，帮助完成。</li>
+</ol>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-jsx" data-lang="jsx"><span style="color:#a6e22e">data</span>(){
+        <span style="color:#66d9ef">return</span>{
+            <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;通过审核！&#34;</span>
+        }
+    },
+    <span style="color:#a6e22e">beforeRouteEnter</span><span style="color:#f92672">:</span>(<span style="color:#a6e22e">to</span>,<span style="color:#a6e22e">from</span>,<span style="color:#a6e22e">next</span>)=&gt;{
+        <span style="color:#a6e22e">next</span>(<span style="color:#a6e22e">vm</span>=&gt;{
+            <span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#34;恭喜你&#34;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">vm</span>.<span style="color:#a6e22e">name</span>);
+        })
+    },
+</code></pre></div><p><img src="https:////upload-images.jianshu.io/upload_images/27418354-028c987f2a9c739d.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/859/format/webp" alt="img"></p>
+<p>image.jpeg</p>
+<blockquote>
+<ol>
+<li>离开这个组件时，beforeRouteLeave:(to,from,next)=&gt;{}
+点击其他组件时，判断是否确认离开。确认执行next()；取消执行next(false)，留在当前页面。</li>
+</ol>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-jsx" data-lang="jsx"><span style="color:#a6e22e">beforeRouteLeave</span><span style="color:#f92672">:</span>(<span style="color:#a6e22e">to</span>,<span style="color:#a6e22e">from</span>,<span style="color:#a6e22e">next</span>)=&gt;{
+        <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">confirm</span>(<span style="color:#e6db74">&#34;确定离开此页面吗？&#34;</span>) <span style="color:#f92672">==</span> <span style="color:#66d9ef">true</span>){
+            <span style="color:#a6e22e">next</span>();
+        }<span style="color:#66d9ef">else</span>{
+            <span style="color:#a6e22e">next</span>(<span style="color:#66d9ef">false</span>);
+        }
+    },
+</code></pre></div><p><img src="https:////upload-images.jianshu.io/upload_images/27418354-2550f190b0edc53f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/506/format/webp" alt="img"></p>
+<p>image.png</p>
+<blockquote>
+<p><strong>三.路由独享的守卫</strong>
+beforeEnter:(to,from,next)=&gt;{}，用法与全局守卫一致。只是，将其写进其中一个路由对象中，只在这个路由下起作用。</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-jsx" data-lang="jsx">{
+      <span style="color:#a6e22e">path</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;/demo&#39;</span>,
+      <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Demo&#39;</span>,
+      <span style="color:#a6e22e">component</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Demo</span>,<span style="color:#a6e22e">beforeEnter</span><span style="color:#f92672">:</span>(<span style="color:#a6e22e">to</span>,<span style="color:#a6e22e">from</span>,<span style="color:#a6e22e">next</span>)=&gt;{
+        <span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#34;非登录状态，不能访问页面&#34;</span>);
+        <span style="color:#a6e22e">next</span>(<span style="color:#e6db74">&#39;/login&#39;</span>);
+    },
+    },
+</code></pre></div><p><img src="https:////upload-images.jianshu.io/upload_images/27418354-e269952308d6661d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/838/format/webp" alt="img"></p>
+<p>image.png</p>
+<h3 id="active-class是哪个组件的属性嵌套路由怎么定义">active-class是哪个组件的属性?嵌套路由怎么定义?</h3>
+<blockquote>
+<p>active-class是vue-router模块的router-link组件中的属性，一般是用来做选中样式的切换
+一级路由里面使用children配置子路由，就是嵌套路由</p>
+</blockquote>
+<h3 id="scss是什么在-vuecli中的安装使用步骤是有哪几大特性">scss是什么?在 vue.cli中的安装使用步骤是?有哪几大特性?</h3>
+<blockquote>
+<p>scsss是css预编译；
+使用步骤：
+第一步：用npm下三个loader(sass-loader、css-loader、node-sass)；
+第二步：在build目录找到webpack.base.config.js，在那个extends属性中加一个拓展.scss；
+第三步：还是在同一个文件，配置一个module属性；
+第四步：然后在组件的style标签加上lang属性，例如：lang=&ldquo;scss&rdquo;；
+有哪几大特性：
+1、可以用变量，例如（$变量名称=值）；
+2、可以用混合器；
+3、可以嵌套；</p>
+</blockquote>
+<h3 id="sass是什么如何在vue中安装和使用">sass是什么？如何在vue中安装和使用？</h3>
+<blockquote>
+<p>sass是一种CSS预编译语言安装和使用步骤如下。</p>
+<ul>
+<li>用npm安装加载程序（ sass-loader、 css-loader等加载程序)。</li>
+<li>在 webpack.config.js中配置sass加载程序。</li>
+</ul>
+</blockquote>
+<h3 id="请说下封装-vue组件的过程">请说下封装 vue组件的过程?</h3>
+<blockquote>
+<p>在components文件夹下建一个vue文件封装组件
+根据业务逻辑、需求写写UI 静态样式等 定义好props的属性数据  子组件修改好数据之后，想把数据传递给父组件，可以使用emit()方法  定义插槽增加组件的可拓展性</p>
+<ul>
+<li>全局组件的话就在main.js中引入、注册  然后再单页面使用即可</li>
+<li>局部组件的话就在单页面引入、注册  在使用即可</li>
+</ul>
+</blockquote>
+<h3 id="请详细说下你对vue生命周期的理解">请详细说下你对vue生命周期的理解?</h3>
+<blockquote>
+<p>每个vue实例都有一个生命周期 一共分为八个阶段
+创建前后： beforeCreate/created   渲染前后： beforeMount/mounted
+更新前后： beforeUpdate/updated  销毁前后： beforeDestroy/destroyed</p>
+<ul>
+<li>在created周期的时候 就可以访问到this了 也可以调用异步的方法去获取后台的数据</li>
+<li>在mounted周期的时候  就能够访问到DOM结构 对dom结构进行一些增删改查的操作 因为在这个时候 dom结构已经渲染完成并挂载在vue实例上面了</li>
+<li>当data变化时，会触发beforeUpdate和updated方法</li>
+<li>在执行destroy方法后，对data的改变不会再触发周期函数，说明此时vue实例已经解除了事件监听以及和dom的绑定，但是dom结构依然存在</li>
+</ul>
+</blockquote>
+<h3 id="watch和computed的区别">watch和computed的区别</h3>
+<blockquote>
+<p>watch顾名思义，用于监听数据变化，其中可以监听的数据来源有三部分：props、data、computed内的数据；watch提供两个参数（newValue，oldValue），第一个参数是新值，第二个参数保存旧值；
+computed用于处理复杂的逻辑运算，主要和methods储存方法来进行区分；methods储存方法，，computed储存需要处理的数据值；methods每次都会调用，computed有缓存机制，只有改变时才执行，性能更佳；</p>
+<p>总的来说：
+watch擅长处理的场景：一个数据影响多个数据
+computed擅长处理的场景：一个数据受多个数据影响</p>
+</blockquote>
+<h3 id="computed-和-methods-的区别">computed 和 methods 的区别</h3>
+<blockquote>
+<p>computed: 计算属性是基于它们的依赖进行缓存的,只有在它的相关依赖发生改变时才会重新求值对于 method
+method: 只要发生重新渲染，调用总会执行该函数</p>
+</blockquote>
+<h3 id="vue中如何解决页面不重新渲染问题">vue中如何解决页面不重新渲染问题</h3>
+<blockquote>
+<p>使用vue，会遇到这样一个问题，修改了对象的属性后，页面不会渲染</p>
+<ul>
+<li>修改对象属性后页面未重新渲染可以使用 this.$set(对象名称, &lsquo;属性名&rsquo;, &lsquo;属性值&rsquo;)</li>
+<li>使用this.$forceUpdate()方法可重新渲染页面</li>
+</ul>
+</blockquote>
+<h3 id="v-if和v-for一起使用的弊端以及它的解决办法">v-if和v-for一起使用的弊端以及它的解决办法？</h3>
+<blockquote>
+<ul>
+<li>由于v-for的优先级比v-if高，所以导致每循环一次就会去v-if一次</li>
+<li>而v-if是通过创建和销毁dom元素来控制元素的显示与隐藏</li>
+<li>所以就会不停的去创建和销毁元素，造成页面卡顿，性能下降。
+解决办法：在v-for的外层或内层包裹一个元素来使用v-if</li>
+</ul>
+</blockquote>
+<h3 id="v-show指令和v-if指令的区别是什么">v-show指令和v-if指令的区别是什么？</h3>
+<blockquote>
+<p>v-show 可以根据表达式的值来显示或者隐藏HTML元素。当v-show赋值为false时，元素被隐藏，此时查看代码时，该元素上会多一个内联样式style=“display:none”；而v-if会控制这个 DOM 节点的存在与否。当我们需要经常切换某个元素的显示/隐藏时，使用v-show会更加节省性能上的开销；当只需要一次显示或隐藏时，使用v-if更加合理。</p>
+</blockquote>
+<h3 id="虚拟domdiff算法">虚拟DOM，diff算法？</h3>
+<blockquote>
+<ul>
+<li>让我们不用直接操作DOM元素，只操作数据便可以重新渲染页面</li>
+<li>虚拟dom是为了解决浏览器性能问题而被设计出来的
+当操作数据时，将改变的dom元素缓存起来，都计算完后再通过比较映射到真实的dom树上</li>
+<li>diff算法比较新旧虚拟dom。如果节点类型相同，则比较数据，修改数据；如果节点不同，直接干掉节点及所有子节点，插入新的节点；如果给每个节点都设置了唯一的key，就可以准确的找到需要改变的内容，否则就会出现修改一个地方导致其他地方都改变的情况。比如A-B-C-D, 我要插入新节点A-B-M-C-D,实际上改变的了C和D。但是设置了key，就可以准确的找到B C并插入</li>
+</ul>
+</blockquote>
+<h3 id="过滤器-filter">过滤器 (Filter)</h3>
+<blockquote>
+<p>在Vue中使用filters来过滤(格式化)数据，filters不会修改数据，而是过滤(格式化)数据，改变用户看到的输出（计算属性 computed ，方法 methods 都是通过修改数据来处理数据格式的输出显示。
+使用场景： 比如需要处理时间、数字等的的显示格式；</p>
+</blockquote>
+<h3 id="常见的事件修饰符及其作用">常见的事件修饰符及其作用</h3>
+<blockquote>
+<ul>
+<li><strong>.stop</strong>：等同于 JavaScript 中的 event.stopPropagation() ，防止事件冒泡；</li>
+<li><strong>.prevent</strong> ：等同于 JavaScript 中的 event.preventDefault() ，防止执行预设的行为（如果事件可取消，则取消该事件，而不停止事件的进一步传播）；</li>
+<li><strong>.capture</strong> ：当元素发生冒泡时，先触发带有该修饰符的元素。若有多个该修饰符，则由外而内触发。如 div1中嵌套div2中嵌套div3.capture中嵌套div4，那么执行顺序为：div3=》div4=》div2=》div1</li>
+<li><strong>.self</strong> ：只会触发自己范围内的事件，不包含子元素；</li>
+<li><strong>.once</strong> ：只会触发一次。</li>
+</ul>
+</blockquote>
+<h3 id="vue-组件-data-为什么必须是函数-">Vue 组件 data 为什么必须是函数 ?</h3>
+<blockquote>
+<p>因为组件是可以复用的,JS 里对象是引用关系,如果组件 data 是一个对象,那么子组件中的 data 属性值会互相污染。
+所以一个组件的 data 选项必须是一个函数,因此每个实例可以维护一份被返回对象的独立的拷贝。</p>
+</blockquote>
+<h3 id="axios是什么">axios是什么？</h3>
+<blockquote>
+<p>易用、简洁且高效的http库， 支持node端和浏览器端，支持Promise，支持拦截器等高级配置。</p>
+</blockquote>
+<h3 id="在-vue-js开发环境下调用api接口如何避免跨域">在 Vue. js开发环境下调用API接口，如何避免跨域</h3>
+<blockquote>
+<p>config/ index.js内对 proxyTable项配置代理。</p>
+</blockquote>
+<h3 id="组件传值的方式有哪些">组件传值的方式有哪些？</h3>
+<blockquote>
+<ul>
+<li>父传子：子组件通过props[&lsquo;xx&rsquo;] 来接收父组件传递的属性 xx 的值</li>
+<li>子传父：子组件通过 this.$emit(&lsquo;fnName&rsquo;,value) 来传递,父组件通过接收 fnName 事件方法来接收回调</li>
+<li>其他方式：通过创建一个bus，进行传值</li>
+<li>使用Vuex</li>
+</ul>
+</blockquote>
+<h3 id="如何让css只在当前组件中起作用">如何让CSS只在当前组件中起作用？</h3>
+<blockquote>
+<p>在每一个Vue.js组件中都可以定义各自的CSS、 JavaScript代码。如果希望组件内写的CSS只对当前组件起作用，只需要在Style标签添加Scoped属性，即。</p>
+</blockquote>
+<h3 id="keep-alive是什么">keep-alive是什么？</h3>
+<blockquote>
+<p>如果需要在组件切换的时候，保存一些组件的状态防止多次渲染，就可以使用 keep-alive 组件包裹需要保存的组件。
+两个重要属性，include 缓存组件名称，exclude 不需要缓存的组件名称。</p>
+</blockquote>
+<h3 id="如何在-vue-js动态插入图片">如何在 Vue. js动态插入图片</h3>
+<blockquote>
+<p>对“src”属性插值将导致404请求错误。应使用 v-bind:src （简写:src）格式代替。</p>
+</blockquote>
+<h3 id="父子组件的生命周期顺序">父子组件的生命周期顺序</h3>
+<blockquote>
+<ul>
+<li>加载渲染过程：
+父beforeCreate-&gt;父created-&gt;父beforeMount-&gt;子beforeCreate-&gt;子created-&gt;子beforeMount-&gt;子mounted-&gt;父mounted</li>
+<li>子组件更新过程：父beforeUpdate-&gt;子beforeUpdate-&gt;子updated-&gt;父updated</li>
+<li>父组件更新过程：父beforeUpdate-&gt;父updated</li>
+<li>销毁过程：父beforeDestroy-&gt;子beforeDestroy-&gt;子destroyed-&gt;父destroyed</li>
+</ul>
+</blockquote>
+<h3 id="vuex的核心概念">vuex的核心概念</h3>
+<blockquote>
+<ul>
+<li>state =&gt; 基本数据</li>
+<li>getters =&gt; 从基本数据派生的数据</li>
+<li>mutations =&gt; 修改数据，同步</li>
+<li>actions =&gt; 修改数据，异步 (Action 提交的是 mutation，而不是直接变更状态)</li>
+<li>modules =&gt; 模块化Vuex</li>
+</ul>
+</blockquote>
+<h3 id="vuex是什么怎么使用哪种功能场景使用它">vuex是什么？怎么使用？哪种功能场景使用它？</h3>
+<blockquote>
+<ul>
+<li>Vuex 是一个专为 Vue.js 应用程序开发的状态管理器，采用集中式存储管理应用的所有组件的状态，主要是为了多页面、多组件之间的通信。</li>
+<li>Vuex有5个重要的属性，分别是 State、Getter、Mutation、Action、Module，由 view 层发起一个 Action 给 Mutation，在 Mutation 中修改状态，返回新的状态，通过 Getter暴露给 view层的组件或者页面，页面监测到状态改变于是更新页面。如果你的项目很简单，最好不要使用 Vuex，对于大型项目，Vuex 能够更好的帮助我们管理组件外部的状态.</li>
+<li>一般可以运用在购物车、登录状态、播放等场景中。</li>
+</ul>
+</blockquote>
+<h3 id="vue中key值的作用">vue中key值的作用</h3>
+<blockquote>
+<ul>
+<li>key值：用于 管理可复用的元素,标识数据的唯一性。因为Vue 会尽可能高效地渲染元素，通常会复用已有元素而不是从头开始渲染</li>
+<li>key的作用主要是为了高效的更新虚拟DOM</li>
+<li>当我们修改了某个数据，如果直接渲染到真实dom上会引起整个dom树的重绘和重排，因此采用diff算法来解决上述问题，通过改变局部dom来更新视图。（渲染真实的dom的开销比较大）</li>
+</ul>
+</blockquote>
+<p><img src="https:////upload-images.jianshu.io/upload_images/27418354-b66a851113b72752.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1015/format/webp" alt="img"></p>
+<p>image.png</p>
+<p><em>持续更新中&hellip;&hellip;</em></p>
+<p>作者：Marvel24
+链接：https://www.jianshu.com/p/bd52907b0e66
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+             
+        </div>
+    </div>
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+    <div class="post-comment">
+        
+
+
+        
+
+        
+        
+        
+  
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: 'M7KqP70DB7trWWWXnKYmOhG4-gzGzoHsz',
+        appKey: '5PY4XDr7gywudBQBO5v903QY',
+        notify: 'false', 
+        verify: 'true', 
+        avatar:'retro', 
+        placeholder: '有疑问请留言~',
+        visitor: 'true',
+        pageSize: '10',
+        });
+  </script> <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div>
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+   <i class="fa fa-user"></i>  <span id="busuanzi_value_site_pv"></span>|
+   <i class="fa fa-eye"></i> <span id="busuanzi_value_site_uv"></span>人次
+</div>
+        
+        
+
+</article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jyhana.cn/" >
+    &copy;  小牛学长的博客日记 2022 
+  </a>
+    <div>
+
+
+
+
+<a href="https://twitter.com/" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+<a href="https://github.com/" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
